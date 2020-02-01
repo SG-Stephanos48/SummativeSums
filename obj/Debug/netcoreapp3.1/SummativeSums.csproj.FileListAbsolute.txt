@@ -8,3 +8,4 @@ C:\Users\steph\source\repos\SummativeSums\SummativeSums\obj\Debug\netcoreapp3.1\
 C:\Users\steph\source\repos\SummativeSums\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.AssemblyInfo.cs
 C:\Users\steph\source\repos\SummativeSums\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.dll
 C:\Users\steph\source\repos\SummativeSums\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.pdb
+C:\Users\steph\source\repos\SummativeSums\SummativeSums\obj\Debug\netcoreapp3.1\SummativeSums.csprojAssemblyReference.cache
