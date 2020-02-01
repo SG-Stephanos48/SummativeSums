@@ -10,12 +10,16 @@ namespace SummativeSums
             int[] array2 = { 999, -60, -77, 14, 160, 301 };
             int[] array3 = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, -99 };
 
-            CalculateArray(array1);
-            CalculateArray(array2);
-            CalculateArray(array3);
+            int sum = 0;
+            sum = CalculateArray(array1);
+            Console.WriteLine($"Array #1 Sum: {sum}");
+            sum = CalculateArray(array2);
+            Console.WriteLine($"Array #2 Sum: {sum}");
+            sum = CalculateArray(array3);
+            Console.WriteLine($"Array #3 Sum: {sum}");
         }
 
-        public static void CalculateArray(int[] array)
+        public static int CalculateArray(int[] array)
         {
 
             int sum = 0;
@@ -24,8 +28,8 @@ namespace SummativeSums
             {
                 sum += array[i];
             }
-
-            Console.WriteLine($"Array Sum: {sum}");
+            return sum;
+                       
 
         }
 
